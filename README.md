@@ -1,7 +1,7 @@
 # log4zio
 ### An Idomatic ZIO Environment Logger
 
-log4zio provides a module-pattern `trait Logger` suited for dependency injection with ZIO's Environment. Simply use the helper methods in the `logger` package, and then provide a log-effect `LogWriter[Task]` when your program needs to be run.
+log4zio provides a module-pattern `trait Logger` suited for dependency injection with ZIO's Environment. Simply use the helper methods in the `logger` package to do your logging, and then provide a log-effect `LogWriter[Task]` when your program needs to be run.
 
 ### Example App
 ```scala
